@@ -1,0 +1,23 @@
+1. Instalar o pacote create-next-app com o comando:
+npx create-next-app. (https://www.npmjs.com/package/create-next-app)
+OBS: Tenha uma versão do node maior que a 18 para não ter problemas com os pacotes.
+1.1. Caso você não tenha o pacote instalado aparecerá uma mensagem pedindo para confirmar a instalação e após ser 
+instalado automaticamente irá aparecer algumas perguntas de configurações do projeto, marquei todas como Yes:
+-> What is your project named? … codeflix
+-> Would you like to use TypeScript? … No / Yes
+-> Would you like to use ESLint? … No / Yes
+-> Would you like to use Tailwind CSS? … No / Yes
+-> Would you like to use `src/` directory? … No / Yes
+-> Would you like to use App Router? (recommended) … No / Yes
+-> Would you like to customize the default import alias (@/*)? › No / Yes
+-> What import alias would you like configured? › @/*
+
+2. Subir o projeto para o github.
+
+3. Fazer deploy usando a vercel.
+-> Criar uma conta na Vercel "https://vercel.com/". Pode criar a conta usando sua conta do github.
+-> Depois de logado ir em "add new" -> "project".
+-> Clique em "import" e depois em "deploy".
+-> A vercel vai scanniar o repositório, vai adicionar as confgurações necessárias e vai subir a aplicação.
+-> Para ver o código que subiu temos os Domains disponibilizados pela vercel.
+-> Agora toda vez que subir algo para master o deploy será feito automaticamente.

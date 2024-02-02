@@ -1,18 +1,29 @@
+# API para analisar imagens.  
+### Como executar o projeto: 
+-> Digite no terminal 'npm install' para instalar todas as dependências. OBS: Tenha uma versão do node 
+maior que a 18 para não ter problemas com os pacotes.   
+-> Digite 'npm run dev' para subir a aplicação na porta 3000.
+
+### Descrição do projeto:  
+
+### Requisitos de software e bibliotecas:    
+-> Node e NPM.    
+-> Next. 
+-> Tailwind.
+-> Typescript.        
+
+### Links úteis:   
+Link do vídeo tutorial: https://www.youtube.com/watch?v=y8XfJJYhXPE&t=2466s     
+Documentação do Adonis V5: https://docs.adonisjs.com/guides/config
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
 
-```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
